@@ -6,6 +6,8 @@ blocklists.txt, and automatically push the updated file to GitHub using
 a secure 7-character random hexadecimal commit message.
 """
 
+from __future__ import annotations
+
 from pathlib import Path
 import secrets
 import sqlite3

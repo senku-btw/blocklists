@@ -8,11 +8,11 @@ a secure 7-character random hexadecimal commit message.
 
 from __future__ import annotations
 
-from pathlib import Path
 import secrets
 import sqlite3
 import subprocess
 import sys
+from pathlib import Path
 
 # Path to Pi-hole gravity database specified in requirements
 GRAVITY_DB_PATH = Path(
@@ -33,9 +33,7 @@ def extract_blocklist_urls(db_path: Path) -> frozenset[str]:
     and unverified entries), returning them as a unique, immutable frozenset.
     """
     if not db_path.exists():
-        raise FileNotFoundError(
-            f"Gravity database not found at target path: {db_path}"
-        )
+        raise FileNotFoundError(f"Gravity database not found at target path: {db_path}")
 
     urls = set()
 
@@ -142,9 +140,7 @@ def git_commit_and_push(output_path: Path):
         )
 
         if status_res.returncode == 0:
-            print(
-                "No changes detected in blocklists.txt. Skipping commit and push."
-            )
+            print("No changes detected in blocklists.txt. Skipping commit and push.")
             return
 
         # Commit with random secure 7-char hex message
@@ -184,23 +180,24 @@ def main():
         sorted_blocklists = sorted(blocklists_frozenset)
         output_path = get_output_path()
 
-        print(
-            f"Writing {len(sorted_blocklists)} unique blocklists to: {output_path}"
-        )
+        print(f"Writing {len(sorted_blocklists)} unique blocklists to: {output_path}")
 
         # Write sorted blocklists line by line ('w' mode overwrites completely)
         with open(output_path, "w", encoding="utf-8") as f:
             for url in sorted_blocklists:
                 f.write(f"{url}\n")
 
-        print(
-            "Success: Blocklists exported, overwritten, and sorted alphabetically."
-        )
+        print("Success: Blocklists exported, overwritten, and sorted alphabetically.")
 
         # Push the validated file changes to GitHub
         git_commit_and_push(output_path)
 
-    except (sqlite3.Error, subprocess.CalledProcessError, FileNotFoundError, OSError) as e:
+    except (
+        sqlite3.Error,
+        subprocess.CalledProcessError,
+        FileNotFoundError,
+        OSError,
+    ) as e:
         print(f"Execution failed: {e}", file=sys.stderr)
         sys.exit(1)
 

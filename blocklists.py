@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
 Production-grade script to extract valid, verified, non-empty blocklist URLs
-from a Pi-hole gravity.db database. It dynamically inspects schema compatibility
-across Pi-hole versions, filters out allowlists, ensures uniqueness via frozen
-immutable objects (frozenset), sorts them alphabetically, and saves the output.
+from a Pi-hole gravity.db database. Overwrites blocklists.txt completely on 
+subsequent runs, filters out unverified/pending lists (status, N/A counts, etc.),
+enforces uniqueness via frozen immutable objects (frozenset), and sorts them alphabetically.
 """
 
 from pathlib import Path
@@ -25,8 +25,8 @@ def get_output_path() -> Path:
 def extract_blocklist_urls(db_path: Path) -> frozenset[str]:
   """Connects to the Pi-hole gravity SQLite database, inspects table schema,
 
-  and extracts valid, verified, non-empty blocklist URLs (excluding allowlists),
-  returning them as a unique, immutable frozenset.
+  and extracts valid, verified, non-empty blocklist URLs (excluding allowlists
+  and unverified/N/A entries), returning them as a unique, immutable frozenset.
   """
   if not db_path.exists():
     raise FileNotFoundError(f"Gravity database not found at target path: {db_path}")
@@ -53,25 +53,30 @@ def extract_blocklist_urls(db_path: Path) -> frozenset[str]:
       cursor.execute("PRAGMA table_info(adlist);")
       columns = {row[1] for row in cursor.fetchall()}
 
-      # Build dynamic conditions based on available schema metadata
-      # enabled = 1 ensures active blocklists are fetched
+      # Base condition: enabled = 1
       conditions = ["enabled = 1"]
       params = []
 
-      # Exclude allowlists: In Pi-hole v6+, type=0 represents blocklists and type=1 represents allowlists
+      # Exclude allowlists (Type 0 = blocklist/denylist, Type 1 = allowlist in v6+)
       if "type" in columns:
         conditions.append("type = ?")
-        params.append(0)  # 0 = Blocklist / Denylist
-
-      # Ensure lists are verified/successful (status 1=success, 2=unchanged upstream, 3=local fallback)
-      if "status" in columns:
-        conditions.append("status IN (?, ?, ?)")
-        params.extend([1, 2, 3])
-
-      # Ensure lists are non-empty (number of domains > 0)
-      if "number" in columns:
-        conditions.append("number > ?")
         params.append(0)
+
+      # Exclude unverified or failed lists:
+      # Pi-hole status codes: 1 = Successful download, 2 = Unchanged upstream (valid local copy).
+      # Status 0 (Unknown / not downloaded so far), 3, or 4 (unavailable) are excluded.
+      if "status" in columns:
+        conditions.append("status IN (?, ?)")
+        params.extend([1, 2])
+
+      # Ensure list has verified entries (Filters out 'N/A' or zero entries)
+      if "number" in columns:
+        conditions.append("number IS NOT NULL AND number > ?")
+        params.append(0)
+
+      # Ensure list has a valid update timestamp (Filters out 'Content last updated on: N/A')
+      if "date_updated" in columns:
+        conditions.append("date_updated IS NOT NULL")
 
       query = f"SELECT address FROM adlist WHERE {' AND '.join(conditions)};"
 
@@ -111,12 +116,12 @@ def main():
     output_path = get_output_path()
     print(f"Writing {len(sorted_blocklists)} unique blocklists to: {output_path}")
 
-    # Write sorted blocklists line by line
+    # Write sorted blocklists line by line ('w' mode ensures full file overwrite on every run)
     with open(output_path, "w", encoding="utf-8") as f:
       for url in sorted_blocklists:
         f.write(f"{url}\n")
 
-    print("Success: Blocklists exported and sorted alphabetically.")
+    print("Success: Blocklists exported, overwritten, and sorted alphabetically.")
 
   except Exception as e:
     print(f"Execution failed: {e}", file=sys.stderr)

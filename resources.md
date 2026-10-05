@@ -9,6 +9,6 @@
 - [x] https://oisd.nl
 - [x] https://github.com/blocklistproject/Lists
 - [x] https://firebog.net
-- [ ] https://lists.zachlagden.uk/browse
+- [x] https://lists.zachlagden.uk/browse
 - [ ] https://github.com/EGen-V/PiHole-List?utm_source=chatgpt.com
 - [ ] https://github.com/PrimePoobah/Pi-hole-Blocklist-Catalog?utm_source=chatgpt.com

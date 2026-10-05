@@ -10,5 +10,5 @@
 - [x] https://github.com/blocklistproject/Lists
 - [x] https://firebog.net
 - [x] https://lists.zachlagden.uk/browse
-- [ ] https://github.com/EGen-V/PiHole-List
+- [x] https://github.com/EGen-V/PiHole-List
 - [ ] https://github.com/PrimePoobah/Pi-hole-Blocklist-Catalog

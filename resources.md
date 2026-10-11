@@ -9,8 +9,7 @@
 - [x] https://blocklist.sefinek.net
 - [x] https://github.com/blocklistproject/Lists
 - [x] https://lists.zachlagden.uk/browse
-
-- [ ] https://github.com/EGen-V/PiHole-List
+- [x] https://github.com/EGen-V/PiHole-List
 - [ ] https://github.com/PrimePoobah/Pi-hole-Blocklist-Catalog
 - [ ] https://github.com/zachlagden/Pi-hole-Optimized-Blocklists
 - [ ] https://github.com/stevejenkins/pi-hole-lists

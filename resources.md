@@ -6,7 +6,7 @@
 - [x] https://github.com/stevenblack/hosts
 - [x] https://oisd.nl
 - [x] https://firebog.net
-- [ ] https://blocklist.sefinek.net
+- [x] https://blocklist.sefinek.net
 - [ ] https://github.com/blocklistproject/Lists
 - [ ] https://lists.zachlagden.uk/browse
 

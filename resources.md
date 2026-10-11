@@ -1,7 +1,7 @@
 
 # Sources
 
-- [ ] https://badmojr.github.io/1Hosts
+- [x] https://badmojr.github.io/1Hosts
 - [x] https://github.com/hagezi/dns-blocklists
 - [ ] https://github.com/stevenblack/hosts
 - [ ] https://blocklist.sefinek.net

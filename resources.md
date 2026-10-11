@@ -5,7 +5,7 @@
 - [x] https://github.com/hagezi/dns-blocklists
 - [x] https://github.com/stevenblack/hosts
 - [x] https://oisd.nl
-- [ ] https://firebog.net
+- [x] https://firebog.net
 - [ ] https://blocklist.sefinek.net
 - [ ] https://github.com/blocklistproject/Lists
 - [ ] https://lists.zachlagden.uk/browse

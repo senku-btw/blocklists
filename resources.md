@@ -11,5 +11,5 @@
 - [x] https://lists.zachlagden.uk/browse
 - [x] https://github.com/EGen-V/PiHole-List
 - [x] https://github.com/PrimePoobah/Pi-hole-Blocklist-Catalog
-- [ ] https://github.com/zachlagden/Pi-hole-Optimized-Blocklists
+- [x] https://github.com/zachlagden/Pi-hole-Optimized-Blocklists
 - [ ] https://github.com/stevejenkins/pi-hole-lists

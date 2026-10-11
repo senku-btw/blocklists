@@ -8,7 +8,7 @@
 - [x] https://firebog.net
 - [x] https://blocklist.sefinek.net
 - [x] https://github.com/blocklistproject/Lists
-- [ ] https://lists.zachlagden.uk/browse
+- [x] https://lists.zachlagden.uk/browse
 
 - [ ] https://github.com/EGen-V/PiHole-List
 - [ ] https://github.com/PrimePoobah/Pi-hole-Blocklist-Catalog

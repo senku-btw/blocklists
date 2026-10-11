@@ -7,7 +7,7 @@
 - [x] https://oisd.nl
 - [x] https://firebog.net
 - [x] https://blocklist.sefinek.net
-- [ ] https://github.com/blocklistproject/Lists
+- [x] https://github.com/blocklistproject/Lists
 - [ ] https://lists.zachlagden.uk/browse
 
 - [ ] https://github.com/EGen-V/PiHole-List

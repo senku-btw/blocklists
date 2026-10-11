@@ -4,10 +4,10 @@
 - [x] https://badmojr.github.io/1Hosts
 - [x] https://github.com/hagezi/dns-blocklists
 - [x] https://github.com/stevenblack/hosts
-- [ ] https://oisd.nl
+- [x] https://oisd.nl
+- [ ] https://firebog.net
 - [ ] https://blocklist.sefinek.net
 - [ ] https://github.com/blocklistproject/Lists
-- [ ] https://firebog.net
 - [ ] https://lists.zachlagden.uk/browse
 
 - [ ] https://github.com/EGen-V/PiHole-List

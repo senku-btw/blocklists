@@ -56,7 +56,6 @@ https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/popupads.txt
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.txt
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/ultimate.txt
-https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/urlshortener.txt
 https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/dga14.txt
 https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/dga30.txt
 https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/dga7.txt
@@ -163,7 +162,6 @@ https://raw.githubusercontent.com/smed79/blacklist/master/hosts.txt
 https://raw.githubusercontent.com/stamparm/blackbook/master/blackbook.txt
 https://raw.githubusercontent.com/stonecrusher/filterlists-pihole/master/watchlist-internet-ph.txt
 https://raw.githubusercontent.com/tg12/pihole-phishtank-list/master/list/phish_domains.txt
-https://sebsauvage.net/hosts/hosts
 https://sebsauvage.net/hosts/raw
 https://small.oisd.nl
 https://sysctl.org/cameleon/hosts

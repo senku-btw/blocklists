@@ -1,0 +1,4 @@
+https://blocklistproject.github.io/Lists/facebook.txt
+https://blocklistproject.github.io/Lists/tiktok.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/social.txt
+https://www.github.developerdan.com/hosts/lists/facebook-extended.txt

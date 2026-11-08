@@ -28,3 +28,4 @@ https://blocklist.sefinek.net/generated/v1/0.0.0.0/suspicious/sefinek.hosts.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/tracking-and-telemetry/majkiit/adguard-mobile-host.fork.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/tracking-and-telemetry/sefinek.hosts.txt
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dyndns.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/hoster.txt

@@ -40,3 +40,4 @@ https://paulgb.github.io/BarbBlock/blacklists/hosts-file.txt
 https://v.firebog.net/hosts/static/w3kbl.txt
 https://raw.githubusercontent.com/matomo-org/referrer-spam-blacklist/master/spammers.txt
 https://v.firebog.net/hosts/Kowabit.txt
+https://v.firebog.net/hosts/neohostsbasic.txt

@@ -46,3 +46,4 @@ https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts
 https://adaway.org/hosts.txt
 https://v.firebog.net/hosts/Admiral.txt
 https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
+https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts

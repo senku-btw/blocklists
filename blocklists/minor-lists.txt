@@ -42,3 +42,4 @@ https://raw.githubusercontent.com/matomo-org/referrer-spam-blacklist/master/spam
 https://v.firebog.net/hosts/Kowabit.txt
 https://v.firebog.net/hosts/neohostsbasic.txt
 https://winhelp2002.mvps.org/hosts.txt
+https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts

@@ -45,3 +45,4 @@ https://winhelp2002.mvps.org/hosts.txt
 https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts
 https://adaway.org/hosts.txt
 https://v.firebog.net/hosts/Admiral.txt
+https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext

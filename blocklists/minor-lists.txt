@@ -30,3 +30,4 @@ https://blocklist.sefinek.net/generated/v1/0.0.0.0/tracking-and-telemetry/sefine
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dyndns.txt
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/hoster.txt
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/blocklist-referral-native.txt

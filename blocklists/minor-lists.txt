@@ -55,3 +55,4 @@ https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
 https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt
 https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts
 https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt
+https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV.txt

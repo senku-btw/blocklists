@@ -34,3 +34,4 @@ https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/blocklist-refer
 https://www.github.developerdan.com/hosts/lists/hate-and-junk-extended.txt
 https://blocklistproject.github.io/Lists/scam.txt
 https://blocklistproject.github.io/Lists/ransomware.txt
+https://blocklistproject.github.io/Lists/crypto.txt

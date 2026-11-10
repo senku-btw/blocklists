@@ -72,3 +72,4 @@ https://raw.githubusercontent.com/blocklistproject/Lists/master/ransomware.txt
 https://raw.githubusercontent.com/blocklistproject/Lists/master/scam.txt
 https://blocklistproject.github.io/Lists/smart-tv.txt
 https://raw.githubusercontent.com/nickoppen/pihole-blocklists/refs/heads/master/unifiedDataSuckers.txt
+https://raw.githubusercontent.com/nickoppen/pihole-blocklists/refs/heads/master/blocklist-advert_02.txt

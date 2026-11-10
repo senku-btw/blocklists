@@ -67,3 +67,4 @@ https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/tracking-and-telemetry/frogeye/firstparty-trackers-hosts.txt
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/share/ad-shield-adblock.txt
 https://raw.githubusercontent.com/blocklistproject/Lists/master/crypto.txt
+https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt

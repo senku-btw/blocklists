@@ -70,3 +70,4 @@ https://raw.githubusercontent.com/blocklistproject/Lists/master/crypto.txt
 https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
 https://raw.githubusercontent.com/blocklistproject/Lists/master/ransomware.txt
 https://raw.githubusercontent.com/blocklistproject/Lists/master/scam.txt
+https://blocklistproject.github.io/Lists/smart-tv.txt

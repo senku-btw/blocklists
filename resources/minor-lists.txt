@@ -69,3 +69,4 @@ https://raw.githubusercontent.com/hagezi/dns-blocklists/main/share/ad-shield-adb
 https://raw.githubusercontent.com/blocklistproject/Lists/master/crypto.txt
 https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
 https://raw.githubusercontent.com/blocklistproject/Lists/master/ransomware.txt
+https://raw.githubusercontent.com/blocklistproject/Lists/master/scam.txt

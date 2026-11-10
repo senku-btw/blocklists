@@ -68,3 +68,4 @@ https://blocklist.sefinek.net/generated/v1/0.0.0.0/tracking-and-telemetry/frogey
 https://raw.githubusercontent.com/hagezi/dns-blocklists/main/share/ad-shield-adblock.txt
 https://raw.githubusercontent.com/blocklistproject/Lists/master/crypto.txt
 https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt
+https://raw.githubusercontent.com/blocklistproject/Lists/master/ransomware.txt

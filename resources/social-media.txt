@@ -11,3 +11,10 @@ https://blocklist.sefinek.net/generated/v1/0.0.0.0/social/facebook.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/social/instagram.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/social/snapchat.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/social/tiktok.txt
+https://raw.githubusercontent.com/nickoppen/pihole-blocklists/refs/heads/master/blocklist-discord.txt
+https://raw.githubusercontent.com/nickoppen/pihole-blocklists/refs/heads/master/blocklist-facebook.txt
+https://raw.githubusercontent.com/nickoppen/pihole-blocklists/refs/heads/master/blocklist-messenger.txt
+https://raw.githubusercontent.com/nickoppen/pihole-blocklists/refs/heads/master/blocklist-signal.txt
+https://raw.githubusercontent.com/nickoppen/pihole-blocklists/refs/heads/master/blocklist-snapchat.txt
+https://raw.githubusercontent.com/nickoppen/pihole-blocklists/refs/heads/master/blocklist-tiktok.txt
+https://raw.githubusercontent.com/nickoppen/pihole-blocklists/refs/heads/master/blocklist-whispersystems.txt

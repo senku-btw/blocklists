@@ -8,8 +8,14 @@ https://blocklist.sefinek.net/generated/v1/0.0.0.0/social/tiktok.txt
 https://blocklist.sefinek.net/generated/v1/0.0.0.0/social/x.txt
 https://blocklistproject.github.io/lists/facebook.txt
 https://blocklistproject.github.io/lists/tiktok.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.tiktok.extended.txt
+https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.tiktok.txt
 https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/social.txt
 https://raw.githubusercontent.com/anudeepnd/blacklist/master/facebook.txt
+https://raw.githubusercontent.com/jmdugan/blocklists/master/corporations/facebook/all
+https://raw.githubusercontent.com/kees1958/w3c_annual_most_used_survey_blocklist/6b8c2411f22dda68b0b41757aeda10e50717a802/top_eu_us_ads_trackers_host
+https://raw.githubusercontent.com/kowith337/personalfilterlistcollection/master/hosts/hosts_facebook0.txt
+https://raw.githubusercontent.com/kowith337/personalfilterlistcollection/master/hosts/test/hosts_facebook0.txt
 https://raw.githubusercontent.com/nickoppen/pihole-blocklists/refs/heads/master/blocklist-discord.txt
 https://raw.githubusercontent.com/nickoppen/pihole-blocklists/refs/heads/master/blocklist-facebook.txt
 https://raw.githubusercontent.com/nickoppen/pihole-blocklists/refs/heads/master/blocklist-messenger.txt
